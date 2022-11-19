@@ -27,13 +27,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull Adapter.ViewHolder holder, int position) {
-        int ressource = userList.get(position).getImageView1();
+        int resource = userList.get(position).getImageView();
         String name = userList.get(position).getTextView1();
-        String msg = userList.get(position).getTextView2();
-        String time = userList.get(position).getTextView3();
+        String time = userList.get(position).getTextView2();
+        String msg = userList.get(position).getTextView3();
         String line = userList.get(position).getDivider();
 
-        holder.setData(ressource, name, msg, time, line);
+        holder.setData(resource, name, time, msg, line);
     }
 
     @Override
@@ -60,8 +60,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             divider = itemView.findViewById(R.id.divider);
         }
 
-        public void setData(int ressource, String name, String msg, String time, String line) {
-            imageView.setImageResource(ressource);
+        public void setData(int resource, String name, String time, String msg, String line) {
+            imageView.setImageResource(resource);
             textView.setText(name);
             textView2.setText(time);
             textView3.setText(msg);

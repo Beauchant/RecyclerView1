@@ -33,9 +33,9 @@
             android:text="Beauchant"
             android:textColor="#000000"
             android:textSize="20sp"
-            android:layout_toRightOf="@+id/cardView"
+            android:layout_toEndOf="@+id/cardView"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp">
+            android:layout_marginStart="20dp">
         </TextView>
 
         <TextView
@@ -44,31 +44,32 @@
             android:layout_height="30dp"
             android:text="10:45AM"
             android:textSize="12sp"
-            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="75dp">
+            android:layout_marginStart="75dp">
         </TextView>
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="140dp"
+            android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:text="How are you?"
             android:textSize="15sp"
-            android:layout_toRightOf="@+id/cardView"
-            android:layout_below="@id/textView"
-            android:layout_marginLeft="20dp">
+            android:layout_toEndOf="@+id/cardView"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="20dp">
         </TextView>
 
         <TextView
             android:id="@+id/divider"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:text="--------------------------------------------------"
+            android:layout_height="30dp"
+            android:text="----------------"
             android:textColor="#CDC7C7"
-            android:layout_toRightOf="@+id/cardView"
-            android:layout_below="@id/cardView"
-            android:layout_marginLeft="20dp">
+            android:layout_marginTop="-5dp"
+            android:layout_toEndOf="@+id/cardView"
+            android:layout_below="@+id/cardView"
+            android:layout_marginStart="20dp">
         </TextView>
 
     </RelativeLayout>

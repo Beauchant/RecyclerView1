@@ -38,9 +38,21 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         userList = new ArrayList<>();
         userList.add(new ModelClass(R.drawable.beauchant, "Beauchant", "9:22 AM", "I'm coding", "___________________________________________"));
-        userList.add(new ModelClass(R.drawable.img1, "Nadime", "6:30 AM", "I'm a youtuber", "___________________________________________"));
-        userList.add(new ModelClass(R.drawable.img2, "Bro Code", "8:45 AM", "A confirmed youtuber", "___________________________________________"));
-        userList.add(new ModelClass(R.drawable.img3, "Boby", "1:25 PM", "How are you?", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.cornie, "Cornie", "6:30 AM", "A good auntie", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.cmd, "Eustache", "8:45 AM", "A police officer", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.fefe, "Fefe", "1:25 PM", "A good sister", "___________________________________________"));
         userList.add(new ModelClass(R.drawable.profile, "Martha", "3:40 PM", "How do you do?", "___________________________________________"));
+
+        userList.add(new ModelClass(R.drawable.doine, "Doine", "9:22 AM", "A big bro", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.alex, "Alexa", "6:30 AM", "A good friend", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.emie, "Emie", "8:45 AM", "MUSO secretary", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.jonathan, "Jonathan", "1:25 PM", "A photographer", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.ketlove, "Ketlove", "3:40 PM", "A computer scientist", "___________________________________________"));
+
+        userList.add(new ModelClass(R.drawable.ruth, "Ruth", "9:22 AM", "FNJD Member", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.shnider, "Schneider", "6:30 AM", "An UE student", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.dina, "Dina", "8:45 AM", "A cool sister", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.arold, "Arold", "1:25 PM", "A good adm", "___________________________________________"));
+        userList.add(new ModelClass(R.drawable.celenie, "Celenie", "3:40 PM", "A strict teacher", "___________________________________________"));
     }
 }
